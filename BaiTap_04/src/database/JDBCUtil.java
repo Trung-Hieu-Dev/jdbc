@@ -12,6 +12,7 @@ public class JDBCUtil {
 		try {
 			// register MySQL Driver
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+			
 			String url = "jdbc:mySQL://localhost:3306/ontap";
 			String username = "root";
 			String password = "";
