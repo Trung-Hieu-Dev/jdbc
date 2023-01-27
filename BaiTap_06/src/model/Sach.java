@@ -1,7 +1,7 @@
 package model;
 
 public class Sach {
-	private int id;
+	private String id;
 	private String tenSach;
 	private float giaBan;
 	private int namXuatBan;
@@ -9,18 +9,18 @@ public class Sach {
 	public Sach() {
 	}
 
-	public Sach(int id, String tenSach, float giaBan, int namXuatBan) {
+	public Sach(String id, String tenSach, float giaBan, int namXuatBan) {
 		this.id = id;
 		this.tenSach = tenSach;
 		this.giaBan = giaBan;
 		this.namXuatBan = namXuatBan;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

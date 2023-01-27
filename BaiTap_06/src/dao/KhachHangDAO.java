@@ -1,14 +1,21 @@
 package dao;
 
+import java.sql.Connection;
+import java.sql.Statement;
 import java.util.ArrayList;
 
+import database.JDBCUtil;
 import model.KhachHang;
 
 public class KhachHangDAO implements DAOInterface<KhachHang> {
+	
+	public static KhachHangDAO getInstance() {
+		return new KhachHangDAO();
+	}
 
 	@Override
 	public int insert(KhachHang t) {
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 

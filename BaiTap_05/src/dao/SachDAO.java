@@ -12,37 +12,31 @@ public class SachDAO implements DAOInterface<Sach> {
 
 	@Override
 	public int insert(Sach t) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public int update(Sach t) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public int delete(Sach t) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public ArrayList<Sach> selectAll() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Sach selectById(Sach t) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ArrayList<Sach> selectByCondition(String condition) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
